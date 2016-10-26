@@ -8,8 +8,7 @@
 # Site settings
 title: Kyle Magee
 email: n.kyle.ma@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-All the projects I've built over time.
+description: All the projects I've built over time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  Kyle-Magee
