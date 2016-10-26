@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="All the projects I've built over time.">
+  <title>GSM2</title>
+  <meta name="description" content="Github Repo">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/about/">
+  <link rel="canonical" href="http://yourdomain.com/projects/2016/10/25/GSM2.html">
   <link rel="alternate" type="application/rss+xml" title="Home" href="http://yourdomain.com/feed.xml">
 </head>
 
@@ -53,21 +53,40 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">GSM2</h1>
+    <p class="post-meta"><time datetime="2016-10-25T22:23:57-07:00" itemprop="datePublished">Oct 25, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>I’m Kyle, hailing from a tiny southern town with a fascination for automation. 
-I study Computer Science at Long Beach City College. Although most of my knowledge comes from my
-<a href="https://kyle-magee.github.io/">projects</a>. I’ve travelled the inner workings of <strong>Python</strong>, 
-the paved roads of <strong>Flask</strong> and the dark corners of <strong>Web Scraping</strong>. Along the way
-I’ve realized the merits of writing clean code. These days I’m teaching myself machine learning and web
-development.</p>
+  <div class="post-content" itemprop="articleBody">
+    <p><a href="https://github.com/Kyle-Magee/GSM2">Github Repo</a></p>
 
-<p>Computers have played a huge role in my life, learning more about them never gets boring.</p>
+<p><a href="http://gsmsolac.tech">Live Site</a></p>
+
+<p>GSM2 is an automated schedule creator for Goodwill managers. I’ve been working on this for a few months.
+This began with a complaint from my store manager about the hassle of having to create a new schedule every week.</p>
+
+<p>The idea is that the script finds the person that is:</p>
+
+<ul>
+  <li>
+    <p>qualified for the job</p>
+  </li>
+  <li>
+    <p>available for the job</p>
+  </li>
+</ul>
+
+<p>This process is repeated until the day has all of its needs met. Then this information is put into an Excel Sheet to be
+posted in the employee breakroom.</p>
+
+<p>GSM2 only needs a work schedule with employee names to do its job but extra parameters are welcomed. Users can input
+the days employees are unable to work and the positions an employee is qualified for.</p>
+
+<p>I learned a lot about software design throughout this project. Designing the website in Flask and setting up the web server
+taught me even more about web development. In the end I’m very proud of this project; I’ve already got ideas for new features.</p>
 
   </div>
 
