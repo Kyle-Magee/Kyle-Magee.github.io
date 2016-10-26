@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Kyle, hailing from a tiny southern town with a fascination for automation. 
+I study Computer Science at Long Beach City College. Although most of my knowledge comes from my
+[projects](https://kyle-magee.github.io/projects). I've travelled the inner workings of **Python**, 
+the paved roads of **Flask** and the dark corners of **Web Scraping**. Along the way
+I've realized the merits of writing **clean**, __**DRY**__ code. These days I'm teaching myself machine learning and web
+development. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Computers have played a huge role in my life, learning more about them never gets boring.

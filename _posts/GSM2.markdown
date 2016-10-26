@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "GSM2"
+date:   2016-10-25 22:23:57 -0700
+categories: projects
+---
+[Github Repo](https://github.com/Kyle-Magee/GSM2)
+[Live Site](http://gsmsolac.tech)
+
+GSM2 is an automated schedule creator for Goodwill managers. I've been working on this for a few months.
+This began with a complaint from my store manager about the hassle of having to create a new schedule every week.
+
+The idea is that the script finds the person that is:
+ * qualified for the job
+ * available for the job
+
+This process is repeated until the day has all of its needs met. Then this information is put into an Excel Sheet to be
+posted in the employee breakroom.
+
+GSM2 only needs a work schedule with employee names to do its job but extra parameters are welcomed. Users can input
+the days employees are unable to work and the positions an employee is qualified for.
+
+I learned a lot about software design throughout this project. Designing the website in Flask and setting up the web server
+taught me even more about web development. In the end I'm very proud of this project; I feel much more confident with my programming skills.
