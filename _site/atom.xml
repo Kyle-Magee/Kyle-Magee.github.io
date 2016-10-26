@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Kyle Magee</title>
- <link href="http://qwtel.com/hydejack/atom.xml" rel="self"/>
- <link href="http://qwtel.com/hydejack/"/>
- <updated>2016-10-26T14:32:32-07:00</updated>
- <id>http://qwtel.com/hydejack</id>
+ <link href="http://qwtel.com/atom.xml" rel="self"/>
+ <link href="http://qwtel.com/"/>
+ <updated>2016-10-26T14:34:19-07:00</updated>
+ <id>http://qwtel.com</id>
  <author>
    <name>Kyle Magee</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>GSM2 - Automated Scheduling</title>
-   <link href="http://qwtel.com/hydejack/2016/10/25/GSM2.html"/>
+   <link href="http://qwtel.com/2016/10/25/GSM2/"/>
    <updated>2016-10-25T00:00:00-07:00</updated>
-   <id>http://qwtel.com/hydejack/2016/10/25/GSM2</id>
+   <id>http://qwtel.com/2016/10/25/GSM2</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/Kyle-Magee/GSM2&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gsmsolac.tech&quot;&gt;Live Site&lt;/a&gt;&lt;/p&gt;
