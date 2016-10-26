@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Kyle Magee</title>
+ <link href="http://qwtel.com/hydejack/atom.xml" rel="self"/>
+ <link href="http://qwtel.com/hydejack/"/>
+ <updated>2016-10-26T14:32:32-07:00</updated>
+ <id>http://qwtel.com/hydejack</id>
+ <author>
+   <name>Kyle Magee</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>GSM2 - Automated Scheduling</title>
+   <link href="http://qwtel.com/hydejack/2016/10/25/GSM2.html"/>
+   <updated>2016-10-25T00:00:00-07:00</updated>
+   <id>http://qwtel.com/hydejack/2016/10/25/GSM2</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/Kyle-Magee/GSM2&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gsmsolac.tech&quot;&gt;Live Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GSM2 is an automated schedule creator for Goodwill managers. I’ve been working on this for a few months.
+This began with a complaint from my store manager about the hassle of having to create a new schedule every week.&lt;/p&gt;
+
+&lt;p&gt;The idea is that the script finds the person that is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;qualified for the job&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;available for the job&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This process is repeated until the day has all of its needs met. Then this information is put into an Excel Sheet to be
+posted in the employee breakroom.&lt;/p&gt;
+
+&lt;p&gt;GSM2 only needs a work schedule with employee names to do its job but extra parameters are welcomed. Users can input
+the days employees are unable to work and the positions an employee is qualified for.&lt;/p&gt;
+
+&lt;p&gt;I learned a lot about software design throughout this project. Designing the website in Flask and setting up the web server
+taught me even more about web development. In the end I’m very proud of this project; I’ve already got ideas for new features.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
