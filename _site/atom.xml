@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Kyle Magee</title>
- <link href="http://qwtel.com/atom.xml" rel="self"/>
- <link href="http://qwtel.com/"/>
- <updated>2016-10-26T14:35:34-07:00</updated>
- <id>http://qwtel.com</id>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2016-10-27T16:05:59-07:00</updated>
+ <id>http://hyde.getpoole.com</id>
  <author>
    <name>Kyle Magee</name>
    <email></email>
@@ -13,36 +13,56 @@
 
  
  <entry>
-   <title>GSM2 - Automated Scheduling</title>
-   <link href="http://qwtel.com/2016/10/25/GSM2/"/>
-   <updated>2016-10-25T00:00:00-07:00</updated>
-   <id>http://qwtel.com/2016/10/25/GSM2</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/Kyle-Magee/GSM2&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+   <title>Goodwill Schedule Manager</title>
+   <link href="http://hyde.getpoole.com/2016/10/15/GSM2/"/>
+   <updated>2016-10-15T00:00:00-07:00</updated>
+   <id>http://hyde.getpoole.com/2016/10/15/GSM2</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Kyle-Magee/GSM2&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gsmsolac.tech&quot;&gt;Live Site&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;GSM2 is an automated schedule creator for Goodwill managers. I’ve been working on this for a few months.
-This began with a complaint from my store manager about the hassle of having to create a new schedule every week.&lt;/p&gt;
+&lt;h3&gt;Problem:&lt;/h3&gt;
 
-&lt;p&gt;The idea is that the script finds the person that is:&lt;/p&gt;
+&lt;p&gt;Creating a Goodwill Schedule requires time that is not available. Therefore handmade schedules are unoptimized and error-prone.&lt;/p&gt;
+
+&lt;h3&gt;Solution:&lt;/h3&gt;
+
+&lt;p&gt;Write a fast, portable program that creates optimized schedules while requiring minimal technical know-how from the user. &lt;/p&gt;
+
+&lt;h3&gt;Tools Used:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;qualified for the job&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;available for the job&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;Python &lt;/li&gt;
+&lt;li&gt;Flask &lt;/li&gt;
+&lt;li&gt;Bootstrap &lt;/li&gt;
+&lt;li&gt;DigitalOcean&lt;/li&gt;
+&lt;li&gt;OpenPyxl&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This process is repeated until the day has all of its needs met. Then this information is put into an Excel Sheet to be
-posted in the employee breakroom.&lt;/p&gt;
+&lt;h3&gt;How I Did It:&lt;/h3&gt;
 
-&lt;p&gt;GSM2 only needs a work schedule with employee names to do its job but extra parameters are welcomed. Users can input
-the days employees are unable to work and the positions an employee is qualified for.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Take Input&lt;/p&gt;
 
-&lt;p&gt;I learned a lot about software design throughout this project. Designing the website in Flask and setting up the web server
-taught me even more about web development. In the end I’m very proud of this project; I’ve already got ideas for new features.&lt;/p&gt;
+&lt;p&gt;Goodwill Managers are not computer whizzes but know how to use Excel. GSM accepts an Excel Sheet as an input. Via openpyxl, GSM is able to read the employee names, positions and availability from excel files (and .xlsx). A standard input may look something like this: &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/kelrUCk.png&quot; alt=&quot;input&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create the Schedule&lt;/p&gt;
+
+&lt;p&gt;Goodwill has a strict scheduling system. Store hours Monday through Saturday are 9am - 9pm and 10am - 8pm on Sundays. There is no overtime. Full-time workers only work 8 hour shifts, 40 hours a week. Part time workers either work 8 hour shifts or 4 hour shifts, and have a max of 16 - 24 hours a week. There are five mandatory shifts that each day must have. &lt;/p&gt;
+
+&lt;p&gt;For each of the five essential shifts, the employee data is queried for an employee most capable and available. This process is repeated for each day in the week. Afterwards, if there are employees that have not hit their hour minimums they are scheduled for supporting shifts. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create Output&lt;/p&gt;
+
+&lt;p&gt;The new schedule is placed onto the Excel template used as an input. This includes off days and hours worked. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make the program portable&lt;/p&gt;
+
+&lt;p&gt;Instead of having users install the program I built a web interface. Using Flask and Bootstrap I stitched together a basic design that accepts the needed inputs. Hosting is done via DigitalOcean. Using the standard input from above the user may wind up with this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/rkghYu3.png&quot; alt=&quot;output&quot;&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  

@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://qwtel.com/2016/10/25/GSM2/</loc>
-<lastmod>2016-10-25T00:00:00-07:00</lastmod>
+<loc>http://hyde.getpoole.com//2016/10/15/GSM2/</loc>
+<lastmod>2016-10-15T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://qwtel.com/404.html</loc>
+<loc>http://hyde.getpoole.com//404.html</loc>
 </url>
 <url>
-<loc>http://qwtel.com/about/</loc>
+<loc>http://hyde.getpoole.com//about/</loc>
 </url>
 <url>
-<loc>http://qwtel.com/archive/</loc>
-</url>
-<url>
-<loc>http://qwtel.com/tag/hyde/</loc>
-</url>
-<url>
-<loc>http://qwtel.com/</loc>
-</url>
-<url>
-<loc>http://qwtel.com/tag/jekyll/</loc>
+<loc>http://hyde.getpoole.com//</loc>
 </url>
 </urlset>
